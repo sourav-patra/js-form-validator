@@ -23,7 +23,7 @@ function storeFormData() {
     phone: form.phone.value,
     email: form.email.value,
     website: form.website.value,
-    passwprd: form.password.value
+    password: form.password.value
   };
   // Do something with user data, for now just printing it in console
   console.log(formData);
